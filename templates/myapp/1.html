@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/1.css' %}">
+</head>
+<body bgcolor="#03fcdf">
+    <center>
+        <h1><u>{{ name }}'s favourites</u></h1>
+    </center>
+    <div>
+        <h2>Player:{{ player }}</h2>
+        <h3><a href="https://en.wikipedia.org/wiki/Mark_Wood_(cricketer)">click here</a></h3>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuLoY5Xjn8LPI7KttbHrwBqIZHxir5VzJ3fw&s" alt="not available">
+    </div>
+</body>
+</html>
